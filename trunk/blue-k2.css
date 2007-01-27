@@ -424,6 +424,20 @@ textarea:focus, input:focus {
 	width: 98.7%;
 	}
 
+#commentform #submit {
+	height: 30px;
+	width: 100%;
+	font-size: 1.6em;
+	padding-bottom: 4px;
+	color:#999 !important;
+	margin: -4px 0 5px;
+	}
+
+#commentform #submit:hover {
+	color: #27D !important;
+	background-color: #F6F6F6 !important;
+	}
+
 
 /* Search Form and Livesearch */
 
