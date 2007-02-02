@@ -11,12 +11,18 @@
 /* ------------------------------------------------------------------------------------------------ */
 /* ----------------------------------- CONFIGURACION ----------------------------------- */
 
-/* Para descomentar un parrafo solo tiene que borrar los simbolos el asterisco y la
+/* Para descomentar un parrafo solo tienes que borrar los simbolos el asterisco y la
 barra que lo rodean.*/
+
+/* To uncomment a block. just delete the asterisk and the slash both at the begining
+and end of it. */
 
 	
 /* DESCOMENTA LOS DOS PARRAFOS INFERIORES SI VAS A USAR EL PSD
 O NO QUIERES QUE SE MUESTRE EL TITULO DEL BLOG EN LA CABECERA  */
+
+/* UNCOMMENT THE BLOCKS BELOW TO DISABLE NORMAL TEXT IN THE
+HEADER, FOR EXAMPLE IF YOU INTEND TO USE YOU OWN HEADER IMAGE  */
 
 /*
 #header  h1 {
@@ -33,6 +39,9 @@ O NO QUIERES QUE SE MUESTRE EL TITULO DEL BLOG EN LA CABECERA  */
 /* EL SIGUIENTE PARRAFO CORRIGE EL TEXTO DE PAGINACIÓN DE LOS ROLLING ARCHIVES
 CENTRANDOLO. DESCOMENTA EL PARRAFO INFERIOR SI TIENES EL K2 LOCALIZADO EN ESPANOL */
 
+/* THIS CENTERS THE ROLLING ARCHIVES TEXT IN SPANISH LOCALIZED VERSIONS OF K2,
+SHOULDN'T BE USED IN ENGLISH WRITEN BLOGS */
+
 /*
 #rollpages,
 #nested_rollpages {
@@ -44,6 +53,9 @@ CENTRANDOLO. DESCOMENTA EL PARRAFO INFERIOR SI TIENES EL K2 LOCALIZADO EN ESPANO
 
 /* Los dos parrafos siguientes son para las estrellas que salen en las listas de la barra lateral. Por defecto
 estan desactivados. Descomentalos para activar las estrellas ;) */
+
+/* The following blocks will enable some stars in the lists of the sidebar. Default is disabled but i left the
+code here just in case anyone likes it ;) */
 	
 /*
 .sb-latest li, .sb-links li li, .sb-months li,
@@ -1147,8 +1159,12 @@ div #wp_grins {
 /* ------------------------------------------------------------------------------------------------ */
 /* --------------------------------- PERSONALIZACIÓN --------------------------------- */
 
-/* Usa esta sección para personalizar Blue-k2 en tu blog y poder pasar tus cambio a
-futuras versiones de blue-k2 más fácilmente */
+/* Usa esta sección para personalizar Blue-k2 en tu blog y poder pasar tus cambios a
+futuras versiones de blue-k2 más fácilmente, sólo tendrás que copiar y pegar este
+bloque */
+
+/* Use this section to customize Blue-k2 in your blog and be able to easely upgrade to
+future versions, just copy and paste this block and averything should be fine. */
 
 
 
