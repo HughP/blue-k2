@@ -968,17 +968,28 @@ img.nbimg,
 .page-head h2 a img,
 .page-head h2 a img:hover,
 .hentry img.wp-smiley,
-.hentrytext img.wp-smiley  {
-	padding: 0 !important;
-	border: none !important;
+.entry-content img.wp-smiley  {
 	background: none;
+	border: 0 !important;
+	padding: 0 !important;
 	}
 
 .comment-content img.wp-smiley,
 .hentry img.wp-smiley,
-.hentrytext img.wp-smiley {
+.entry-content img.wp-smiley {
 	vertical-align: -10%;
 	padding:  0px;
+	}
+
+.entry-content a img.nbimg {
+	border: 0 !important;
+	padding: 0 !important;
+	}
+
+.entry-content a:hover img.nbimg {
+	border: 0 !important;
+	padding: 0 !important;
+	-moz-opacity: 0.8;
 	}
 
 
