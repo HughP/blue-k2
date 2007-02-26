@@ -1010,6 +1010,16 @@ a {
 	background: url('transmit_blue.png') no-repeat left center !important;
 	}
 
+div.trimmed .hentry {
+	background: #F6F9FF;
+	padding: 2px 10px;
+	-moz-border-radius: 15px;
+	}
+
+div.trimmed .hentry.alt {
+	background: transparent;
+	}
+
 
 /* Flickr RSS */
 
