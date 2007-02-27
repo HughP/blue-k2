@@ -614,22 +614,22 @@ h3 {
 /* Parrafos Especiales */
 
 blockquote {
-	width: 425px;
 	background: #F0F4FF url('parrafo-quote.png') 10px 20px no-repeat;
+	color: #666!important;
 	min-height: 35px;
 	padding: 5px 20px 5px 55px;
-	color: #666!important;
+	width: 425px;
 	-moz-border-radius: 15px;
 	}
 
 div.comments div blockquote {
+	background: #FFF url('parrafo-quote.png') 10px 10px no-repeat;
 	background-color: #EEE !important;
 	border: 1px solid #BBB !important;
-	width: 420px;
-	background: #FFF url('parrafo-quote.png') 10px 10px no-repeat;
+	color: #666!important;
 	min-height: 45px;
 	padding: 0px 5px 0px 50px;
-	color: #666!important;
+	width: 420px;
 	-moz-border-radius:0px;
 	}
 
@@ -655,90 +655,91 @@ blockquote p.author {
 	}
 
 .alert {
-	text-align: center;
 	font-weight: bold;
 	font-size: 11px;
+	text-align: center;
 	}
 	
 .alert2 {
 	background: #FFF6BF url('parrafo-alert.png') 10px center no-repeat;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 
 .download {
 	background: #D0F29D url('parrafo-download.png') 10px center no-repeat;
 	border-top: 2px solid #9CD941;
 	border-bottom: 2px solid #9CD941;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 	
 .construction {
 	background: #ffcccc url('parrafo-cross.png') 10px center no-repeat;
 	border-top: 2px solid #c90404;
 	border-bottom: 2px solid #c90404;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 
 .favorite {
 	background: #FFF6BF url('parrafo-favorite.png') 10px center no-repeat;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 
 .info {
 	background: #9DD1F2 url('parrafo-info.png') 10px center no-repeat;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 
 .question {
 	background: #9DD1F2 url('parrafo-question.png') 10px center no-repeat;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
+	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
-	line-height: normal;
 	}
 
 .code {
 	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
 	border-top: 2px solid #CCC;
 	border-bottom: 2px solid #CCC;
-	padding: 10px 10px 10px 52px;
-	text-align: left;
 	font: Courier, Fixed;
 	min-height: 30px;
+	padding: 10px 10px 10px 52px;
+	text-align: left;
 	}
 	
 code {
-	display: block;
 	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
 	border-top: 2px solid #CCC;
 	border-bottom: 2px solid #CCC;
-	padding: 10px 10px 10px 52px;
-	text-align: left;
+	color: #A34;
+	display: block;
 	font: Courier, Fixed;
 	min-height: 30px;
+	padding: 10px 10px 10px 52px;
+	text-align: left;
 	}
 
 li code {
-	display: inline;
 	background: none;
 	border: none;
+	display: inline;
 	padding: 0;
 	text-align: inherit;
 	}
@@ -747,40 +748,39 @@ li code {
 	background: #9DD1F2;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
-	text-align: center;
 	padding: 5px 20px;
+	text-align: center;
 	}
 	
 .yellowbox {
 	background: #FFF6BF;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
-	text-align: center;
 	padding: 5px 20px;
+	text-align: center;
 	}
 	
 .redbox {
 	background: #ffcccc;
 	border-top: 2px solid #c90404;
 	border-bottom: 2px solid #c90404;
-	text-align: center;
 	padding: 5px 20px;
+	text-align: center;
 	}
 	
 .greenbox {
 	background: #D0F29D;
 	border-top: 2px solid #9CD941;
 	border-bottom: 2px solid #9CD941;
-	text-align: center;
 	padding: 5px 20px;
-	}
+	text-align: center;	}
 
 .greybox {
 	background: #f2f2f2;
 	border-top: 2px solid #CCC;
 	border-bottom: 2px solid #CCC;
-	text-align: center;
 	padding: 5px 20px;
+	text-align: center;
 	}
 
 /* Links de Parrafos Especiales*/
