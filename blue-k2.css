@@ -716,8 +716,11 @@ blockquote p.author {
 
 .code {
 	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
-	border-top: 2px solid #CCC;
+	border: 6px solid #CCC;
 	border-bottom: 2px solid #CCC;
+	border-right: 2px solid #CCC;
+	border-top: 2px solid #CCC;
+	color: #A34;
 	font: Courier, Fixed;
 	min-height: 30px;
 	padding: 10px 10px 10px 52px;
@@ -725,18 +728,8 @@ blockquote p.author {
 	}
 	
 code {
-	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
-	border-top: 2px solid #CCC;
-	border-bottom: 2px solid #CCC;
 	color: #A34;
-	display: block;
 	font: Courier, Fixed;
-	min-height: 30px;
-	padding: 10px 10px 10px 52px;
-	text-align: left;
-	}
-
-li code {
 	background: none;
 	border: none;
 	display: inline;
@@ -773,7 +766,8 @@ li code {
 	border-top: 2px solid #9CD941;
 	border-bottom: 2px solid #9CD941;
 	padding: 5px 20px;
-	text-align: center;	}
+	text-align: center;
+	}
 
 .greybox {
 	background: #f2f2f2;
@@ -782,20 +776,76 @@ li code {
 	padding: 5px 20px;
 	text-align: center;
 	}
+	
+.alertboxr {
+	background: url(rbox-alert.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 20px 12px 45px;
+	text-align: center;
+	}
+	
+.favoriteboxr {
+	background: url(rbox-favorite.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
+	
+.constructionboxr {
+	background: url(rbox-construction.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
+	
+.downloadboxr {
+	background: url(rbox-download.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
 
+.questionboxr {
+	background: url(rbox-question.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
+
+.infoboxr {
+	background: url(rbox-info.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
+
+.greyboxr {
+	background: url(rbox-grey.gif) 50% no-repeat;
+	line-height: 12px;
+	padding: 12px 50px;
+	text-align: center;
+	}
+
+	
 /* Links de Parrafos Especiales*/
 
 .download a, .alert2 a, .info a,
-.question a, .favorite a, .construction a ,
+.question a, .favorite a, .construction a,
 .code a, .bluebox a, .yellowbox a,
-.redbox a, .greenbox a, .greybox a {
+.redbox a, .greenbox a, .greybox a,
+.downloadboxr a, .alertboxr a, .favoriteboxr a,
+.infoboxr a, .questionboxr a, .constructionboxr a,
+.greyboxr a {
 	font-weight: bold;
 	}
 
 .download a:hover, .alert2 a:hover, .info a:hover,
 .question a:hover, .favorite a:hover, .construction a:hover ,
 .code a:hover, .bluebox a:hover, .yellowbox a:hover,
-.redbox a:hover, .greenbox a:hover, .greybox a:hover{
+.redbox a:hover, .greenbox a:hover, .greybox a:hover,
+.downloadboxr a:hover, .alertboxr a:hover, .favoriteboxr a:hover,
+.infoboxr a:hover, .questionboxr a:hover, .constructionboxr a:hover,
+.greyboxr a:hover {
 	color: #f36 !important;
 	font-weight: bold;
 	text-decoration: none !important;
