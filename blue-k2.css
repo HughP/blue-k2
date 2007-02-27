@@ -303,6 +303,9 @@ div .entry-content ul li {
 	border: 1px solid #9be;
 	}
 
+#primary .k2-asides .entry-title {
+	letter-spacing: 0;
+	}
 
 #primary .k2-asides .entry-head {
 	padding: 0 0 0 10px;
