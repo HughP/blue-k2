@@ -163,15 +163,15 @@ body {
 	}
 	
 #page {
-	background: #EEE url("bg.jpg");
-	_background: #EEE url("bg.jpg") -5px; /* IE6 Hack */
+	background: #FFF url("bg.jpg");
+	_background: #FFF url("bg.jpg") -5px; /* IE6 Hack */
 	border: none;
 	padding-bottom: 0;
 	}
 
 #header {
 	margin-top: -20px;
-	background: #EEE url('header.jpg') center center no-repeat;
+	background: #FFF url('header.jpg') center center no-repeat;
 	}
 
 #header  h1 {
@@ -190,7 +190,7 @@ br .clear {
 	margin-bottom: 0 !important;
 	padding-top: 26px;
 	padding-bottom: 0px;
-	background: #EEE url('footer.jpg') top center no-repeat;
+	background: #FFF url('footer.jpg') top center no-repeat;
 	//margin-right: 1px; /* IE Hack */
 	}
 
