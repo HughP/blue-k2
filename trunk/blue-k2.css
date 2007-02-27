@@ -171,7 +171,7 @@ body {
 
 #header {
 	margin-top: -20px;
-	background: #FFF url('header.jpg') center center no-repeat;
+	background: url('header.jpg') center center no-repeat;
 	}
 
 #header  h1 {
@@ -188,9 +188,8 @@ br .clear {
 	height: 59px;
 	margin-top: 0;
 	margin-bottom: 0 !important;
-	padding-top: 26px;
-	padding-bottom: 0px;
-	background: #FFF url('footer.jpg') top center no-repeat;
+	padding-top: 22px;
+	background: url('footer.jpg') top center no-repeat;
 	//margin-right: 1px; /* IE Hack */
 	}
 
@@ -200,8 +199,6 @@ div .content {
 	margin-bottom: 0;
 	padding-bottom: 10px;
 	}
-
-
 
 div #content-disabled {
 	margin-top: -30px;
