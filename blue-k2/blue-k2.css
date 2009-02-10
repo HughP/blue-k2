@@ -3,7 +3,7 @@
 	Author Site	: 	http://blog.moskis.net/
 	Style Name	: 	Blue-K2
 	Style URI	:	http://bluek2.moskis.net/blue-k2/
-	Version		: 	SVN
+	Version		: 	1.0
 	Comments	: 	Un esquema inspirado en Kubrick, con tonos azules.
 */
 
@@ -11,18 +11,12 @@
 /* ------------------------------------------------------------------------------------------------ */
 /* ----------------------------------- CONFIGURACION ----------------------------------- */
 
-/* Para descomentar un parrafo solo tienes que borrar los simbolos el asterisco y la
+/* Para descomentar un parrafo solo tiene que borrar los simbolos el asterisco y la
 barra que lo rodean.*/
-
-/* To uncomment a block. just delete the asterisk and the slash both at the begining
-and end of it. */
 
 	
 /* DESCOMENTA LOS DOS PARRAFOS INFERIORES SI VAS A USAR EL PSD
 O NO QUIERES QUE SE MUESTRE EL TITULO DEL BLOG EN LA CABECERA  */
-
-/* UNCOMMENT THE BLOCKS BELOW TO DISABLE NORMAL TEXT IN THE
-HEADER, FOR EXAMPLE IF YOU INTEND TO USE YOU OWN HEADER IMAGE  */
 
 /*
 #header  h1 {
@@ -39,9 +33,6 @@ HEADER, FOR EXAMPLE IF YOU INTEND TO USE YOU OWN HEADER IMAGE  */
 /* EL SIGUIENTE PARRAFO CORRIGE EL TEXTO DE PAGINACIÓN DE LOS ROLLING ARCHIVES
 CENTRANDOLO. DESCOMENTA EL PARRAFO INFERIOR SI TIENES EL K2 LOCALIZADO EN ESPANOL */
 
-/* THIS CENTERS THE ROLLING ARCHIVES TEXT IN SPANISH LOCALIZED VERSIONS OF K2,
-SHOULDN'T BE USED IN ENGLISH WRITEN BLOGS */
-
 /*
 #rollpages,
 #nested_rollpages {
@@ -53,9 +44,6 @@ SHOULDN'T BE USED IN ENGLISH WRITEN BLOGS */
 
 /* Los dos parrafos siguientes son para las estrellas que salen en las listas de la barra lateral. Por defecto
 estan desactivados. Descomentalos para activar las estrellas ;) */
-
-/* The following blocks will enable some stars in the lists of the sidebar. Default is disabled but i left the
-code here just in case anyone likes it ;) */
 	
 /*
 .sb-latest li, .sb-links li li, .sb-months li,
@@ -163,15 +151,15 @@ body {
 	}
 	
 #page {
-	background: #FFF url("bg.jpg");
-	_background: #FFF url("bg.jpg") -5px; /* IE6 Hack */
+	background: #EEE url("bg.jpg");
+	_background: #EEE url("bg.jpg") -5px; /* IE6 Hack */
 	border: none;
 	padding-bottom: 0;
 	}
 
 #header {
 	margin-top: -20px;
-	background: url('header.jpg') center center no-repeat;
+	background: #EEE url('header.jpg') center center no-repeat;
 	}
 
 #header  h1 {
@@ -188,8 +176,9 @@ br .clear {
 	height: 59px;
 	margin-top: 0;
 	margin-bottom: 0 !important;
-	padding-top: 22px;
-	background: url('footer.jpg') top center no-repeat;
+	padding-top: 26px;
+	padding-bottom: 0px;
+	background: #EEE url('footer.jpg') top center no-repeat;
 	//margin-right: 1px; /* IE Hack */
 	}
 
@@ -199,6 +188,8 @@ div .content {
 	margin-bottom: 0;
 	padding-bottom: 10px;
 	}
+
+
 
 div #content-disabled {
 	margin-top: -30px;
@@ -257,11 +248,11 @@ div .pagetitle {
 	}
 
 abbr.published {
-	border-bottom: #dedede solid 1px;
+	border-bottom: #9be dotted 1px;
 	}
 
 .entry-content {
-	line-height: 1.3em;
+	line-height: 1.5em;
 	}
 
 .entry-content ul,
@@ -303,9 +294,6 @@ div .entry-content ul li {
 	border: 1px solid #9be;
 	}
 
-#primary .k2-asides .entry-title {
-	letter-spacing: 0;
-	}
 
 #primary .k2-asides .entry-head {
 	padding: 0 0 0 10px;
@@ -434,20 +422,6 @@ textarea:focus, input:focus {
 	height: 250px;
 	padding: 2px;
 	width: 98.7%;
-	}
-
-#commentform #submit {
-	height: 30px;
-	width: 100%;
-	font-size: 1.6em;
-	padding-bottom: 4px;
-	color:#999 !important;
-	margin: -4px 0 5px;
-	}
-
-#commentform #submit:hover {
-	color: #27D !important;
-	background-color: #F6F6F6 !important;
 	}
 
 
@@ -610,29 +584,28 @@ h3 {
 .secondary h2 {
 	color: #444;
 	font-family: 'Trebuchet MS', Verdana, Sans-Serif;
-	letter-spacing: 0;
 	}
 
 
 /* Parrafos Especiales */
 
 blockquote {
+	width: 425px;
 	background: #F0F4FF url('parrafo-quote.png') 10px 20px no-repeat;
-	color: #666!important;
 	min-height: 35px;
 	padding: 5px 20px 5px 55px;
-	width: 425px;
+	color: #666!important;
 	-moz-border-radius: 15px;
 	}
 
 div.comments div blockquote {
-	background: #FFF url('parrafo-quote.png') 10px 10px no-repeat;
 	background-color: #EEE !important;
 	border: 1px solid #BBB !important;
-	color: #666!important;
+	width: 420px;
+	background: #FFF url('parrafo-quote.png') 10px 10px no-repeat;
 	min-height: 45px;
 	padding: 0px 5px 0px 50px;
-	width: 420px;
+	color: #666!important;
 	-moz-border-radius:0px;
 	}
 
@@ -658,197 +631,139 @@ blockquote p.author {
 	}
 
 .alert {
+	text-align: center;
 	font-weight: bold;
 	font-size: 11px;
-	text-align: center;
 	}
 	
 .alert2 {
 	background: #FFF6BF url('parrafo-alert.png') 10px center no-repeat;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 
 .download {
 	background: #D0F29D url('parrafo-download.png') 10px center no-repeat;
 	border-top: 2px solid #9CD941;
 	border-bottom: 2px solid #9CD941;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 	
 .construction {
 	background: #ffcccc url('parrafo-cross.png') 10px center no-repeat;
 	border-top: 2px solid #c90404;
 	border-bottom: 2px solid #c90404;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 
 .favorite {
 	background: #FFF6BF url('parrafo-favorite.png') 10px center no-repeat;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 
 .info {
 	background: #9DD1F2 url('parrafo-info.png') 10px center no-repeat;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 
 .question {
 	background: #9DD1F2 url('parrafo-question.png') 10px center no-repeat;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
-	line-height: normal;
 	padding: 10px 10px 10px 52px;
 	text-align: center;
+	line-height: normal;
 	}
 
 .code {
 	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
-	border: 6px solid #CCC;
-	border-bottom: 2px solid #CCC;
-	border-right: 2px solid #CCC;
 	border-top: 2px solid #CCC;
-	color: #A34;
-	font: Courier, Fixed;
-	min-height: 30px;
+	border-bottom: 2px solid #CCC;
 	padding: 10px 10px 10px 52px;
 	text-align: left;
+	font: Courier, Fixed;
+	min-height: 30px;
 	}
 	
 code {
-	color: #A34;
+	display: block;
+	background: #f2f2f2 url('parrafo-code.png') 10px 10px no-repeat;
+	border-top: 2px solid #CCC;
+	border-bottom: 2px solid #CCC;
+	padding: 10px 10px 10px 52px;
+	text-align: left;
 	font: Courier, Fixed;
-	background: none;
-	border: none;
-	display: inline;
-	padding: 0;
-	text-align: inherit;
+	min-height: 30px;
 	}
-	
+
 .bluebox {
 	background: #9DD1F2;
 	border-top: 2px solid #419ED9;
 	border-bottom: 2px solid #419ED9;
-	padding: 5px 20px;
 	text-align: center;
+	padding: 5px 20px;
 	}
 	
 .yellowbox {
 	background: #FFF6BF;
 	border-top: 2px solid #FFD324;
 	border-bottom: 2px solid #FFD324;
-	padding: 5px 20px;
 	text-align: center;
+	padding: 5px 20px;
 	}
 	
 .redbox {
 	background: #ffcccc;
 	border-top: 2px solid #c90404;
 	border-bottom: 2px solid #c90404;
-	padding: 5px 20px;
 	text-align: center;
+	padding: 5px 20px;
 	}
 	
 .greenbox {
 	background: #D0F29D;
 	border-top: 2px solid #9CD941;
 	border-bottom: 2px solid #9CD941;
-	padding: 5px 20px;
 	text-align: center;
+	padding: 5px 20px;
 	}
 
 .greybox {
 	background: #f2f2f2;
 	border-top: 2px solid #CCC;
 	border-bottom: 2px solid #CCC;
+	text-align: center;
 	padding: 5px 20px;
-	text-align: center;
-	}
-	
-.alertboxr {
-	background: url(rbox-alert.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 20px 12px 45px;
-	text-align: center;
-	}
-	
-.favoriteboxr {
-	background: url(rbox-favorite.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
-	}
-	
-.constructionboxr {
-	background: url(rbox-construction.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
-	}
-	
-.downloadboxr {
-	background: url(rbox-download.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
 	}
 
-.questionboxr {
-	background: url(rbox-question.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
-	}
-
-.infoboxr {
-	background: url(rbox-info.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
-	}
-
-.greyboxr {
-	background: url(rbox-grey.gif) 50% no-repeat;
-	line-height: 12px;
-	padding: 12px 50px;
-	text-align: center;
-	}
-
-	
 /* Links de Parrafos Especiales*/
 
 .download a, .alert2 a, .info a,
-.question a, .favorite a, .construction a,
+.question a, .favorite a, .construction a ,
 .code a, .bluebox a, .yellowbox a,
-.redbox a, .greenbox a, .greybox a,
-.downloadboxr a, .alertboxr a, .favoriteboxr a,
-.infoboxr a, .questionboxr a, .constructionboxr a,
-.greyboxr a {
+.redbox a, .greenbox a, .greybox a {
 	font-weight: bold;
 	}
 
 .download a:hover, .alert2 a:hover, .info a:hover,
 .question a:hover, .favorite a:hover, .construction a:hover ,
 .code a:hover, .bluebox a:hover, .yellowbox a:hover,
-.redbox a:hover, .greenbox a:hover, .greybox a:hover,
-.downloadboxr a:hover, .alertboxr a:hover, .favoriteboxr a:hover,
-.infoboxr a:hover, .questionboxr a:hover, .constructionboxr a:hover,
-.greyboxr a:hover {
+.redbox a:hover, .greenbox a:hover, .greybox a:hover{
 	color: #f36 !important;
 	font-weight: bold;
 	text-decoration: none !important;
@@ -1026,28 +941,17 @@ img.nbimg,
 .page-head h2 a img,
 .page-head h2 a img:hover,
 .hentry img.wp-smiley,
-.entry-content img.wp-smiley  {
-	background: none;
-	border: 0 !important;
+.hentrytext img.wp-smiley  {
 	padding: 0 !important;
+	border: none !important;
+	background: none;
 	}
 
 .comment-content img.wp-smiley,
 .hentry img.wp-smiley,
-.entry-content img.wp-smiley {
+.hentrytext img.wp-smiley {
 	vertical-align: -10%;
 	padding:  0px;
-	}
-
-.entry-content a img.nbimg {
-	border: 0 !important;
-	padding: 0 !important;
-	}
-
-.entry-content a:hover img.nbimg {
-	border: 0 !important;
-	padding: 0 !important;
-	-moz-opacity: 0.8;
 	}
 
 
@@ -1066,16 +970,6 @@ a {
 	
 #rollload, #nested_rollload {
 	background: url('transmit_blue.png') no-repeat left center !important;
-	}
-
-div.trimmed .hentry {
-	background: #F6F9FF;
-	padding: 2px 10px;
-	-moz-border-radius: 15px;
-	}
-
-div.trimmed .hentry.alt {
-	background: transparent;
 	}
 
 
@@ -1234,20 +1128,3 @@ div #wp_grins {
 .secondary .sb-comments-blc a.activityentry {
 	position: relative;
 	}
-
-/* ------------------------------------------------------------------------------------------------ */
-/* --------------------------------- PERSONALIZACIÓN --------------------------------- */
-
-/* Usa esta sección para personalizar Blue-k2 en tu blog y poder pasar tus cambios a
-futuras versiones de blue-k2 más fácilmente, sólo tendrás que copiar y pegar este
-bloque */
-
-/* Use this section to customize Blue-k2 in your blog and be able to easely upgrade to
-future versions, just copy and paste this block and averything should be fine. */
-
-
-
-
-
-/* ----------------------------- Fin de PERSONALIZACIÓN ----------------------------- */
-/* ------------------------------------------------------------------------------------------------ */
